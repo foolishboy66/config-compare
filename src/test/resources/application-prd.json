@@ -1,0 +1,20 @@
+{
+  "spring": {
+    "application": {
+      "profile": "prd"
+    },
+    "apps": [{
+      "app-id": "app_prd1",
+      "app-name": "config1",
+      "app-args": ["arg1-prd", "arg2-prd"]
+    }, {
+      "app-id": "app_prd2",
+      "app-name": "config2"
+    }]
+  },
+  "config": {
+    "prd": {
+      "list": ["test01", "test02"]
+    }
+  }
+}
